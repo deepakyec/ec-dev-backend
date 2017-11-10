@@ -10,16 +10,22 @@ default: &default
 development:
   adapter: postgresql
   database: ec_dev_db_development
+  #username: postgres
+  #password: sasa
   pool: 5
   timeout: 5000
 test:
   adapter: postgresql
   database: ec_dev_db_test
+  #username: postgres
+  #password: sasa
   pool: 5
   timeout: 5000
 
 production:
   adapter: postgresql
   database: ec_dev_db_production
+  #username: postgres
+  #password: sasa
   pool: 5
   timeout: 5000
