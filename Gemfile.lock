@@ -164,8 +164,7 @@ GEM
       nokogiri (~> 1.3)
 
 PLATFORMS
-  ruby
-  x86_64-linux
+  x64-mingw32
 
 DEPENDENCIES
   byebug
@@ -181,6 +180,9 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
+
+RUBY VERSION
+   ruby 2.4.2p198
 
 BUNDLED WITH
    1.16.0
